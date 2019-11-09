@@ -1,0 +1,19 @@
+login:
+  login:
+    ddjdhj: 'ssb'
+  login_data_01:
+    pwd: '1234qwer'
+    username: '13978355452@163.com'
+  login_data_02:
+    pwd: '111111'
+    username: test
+
+  'function':
+    '登入': 'div.nav-user>span>a:nth-child(1)'
+    '邮箱': 'input#email'
+    '密码': 'input#password'
+    '立即登录': 'button.layui-btn'
+
+  
+
+

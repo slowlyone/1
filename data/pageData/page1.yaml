@@ -1,0 +1,59 @@
+page1:
+  'url': 'http://47.104.84.186:8080/forum'
+  'xianshi':
+    '全部帖': 'div.content>div:nth-child(1)>span>a:nth-child(1)'
+    '精品帖': 'div.content>div:nth-child(1)>span>a:nth-child(2)'
+    '置顶帖': 'div.content>div:nth-child(1)>span>a:nth-child(3)'
+    '技术文章分类': 'div.content>div:nth-child(1)>span>a:nth-child(4)'
+
+  'function':
+    'shousou': 'input#index_search_words'
+    'shousou_button': 'i[onclick="clickSearch()"]'
+    'shousou_result': 'li.fly-list-li'
+    'input': '23421'
+  'function2':
+    '发布帖子': "input[type='button']"
+    '标题': 'input#L_title'
+    'iframe': 'iframe#LAY_layedit_1'
+    '标题内容': '自动化case测试帖子发布'
+    '文本位置': "body[contenteditable='true']"
+    '文章内容': "从前有座山，山里有座庙，庙里有个和尚在讲故事\n讲的故事是：从前有座山，山里有座庙"
+    '标签': '自动化'
+    '标签选项': "dd[lay-value='37']"
+    '标签位置': 'div.layui-select-title>input'
+    '立即发布': 'button.layui-btn'
+  '发帖子':
+    '问答帖':  "li#wenda"
+    '面试技巧与奇葩事': "li#mianshi"
+    '测试灌水': "li#guanshui"
+    '零基础测试转行':  "li#zhuanhang"
+    '招聘': "li#zhaopin"
+
+  'personal':
+    '弹框出现_定位': "div[type='dialog']"
+    '设置' : "div.nav-user>div>a:nth-child(1)"
+    '昵称': "input#L_username"
+    '昵称内容': "hehe"
+    '性别': "input#L_sex"
+    '性别内容': "男"
+    '签名': "textarea#L_sign"
+    '签名内容': "你好2"
+    '确认修改': "button.layui-btn"
+    '头像设置': "ul[lay-filter='user']>li:nth-child(2)"
+    '上传图片': "button#updateico"
+    '图片上传弹框': "div[type='dialog']"
+    '退出': "div.nav>a:nth-child(2)"
+    '登录标识': "a.avatar"
+
+  'assert':
+    'allForum': "全部帖"
+    'bestForum': "精品帖"
+    '置顶帖': '置顶帖'
+    '技术文章分类': '技术文章分类'
+    '发布帖子': '发布帖子'
+    '主页': 'http://47.104.84.186:8080/forum'
+    '修改成功': '修改成功'
+    '登出': "div.nav-user>a"
+
+
+

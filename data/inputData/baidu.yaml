@@ -1,0 +1,5 @@
+baidu:
+  url: 'https://www.baidu.com/'
+  '新闻': 'div#u1>a:nth-child(1)'
+  '百度输入框': 'input#kw'
+  '输入数据': '1234'
